@@ -48,9 +48,9 @@ GET:    /users/by-email - admin
 
 ### How to run this project on your PC:
 1. You will need an installed environment to run Java code;
-2. You will also need installed MySQL;
+2. You will also need installed MySQL and Apache Tomcat;
 3. Clone this project
-4. Set up DB's parameters in hibernate.cfg.xml
-5. Run the main() method in the Main class to see how it works.
-6. You can use already initialized data or use your own inputs and write feedback :)
+4. Set up DB's parameters in db.properties
+5. Run the Apache Tomcat.
+6. You can use already initialized data(from DataInitializer) or use your own inputs and write feedback :)
 
