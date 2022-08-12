@@ -23,14 +23,6 @@ public class CinemaHall {
         this.id = id;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public int getCapacity() {
         return capacity;
     }
@@ -39,12 +31,19 @@ public class CinemaHall {
         this.capacity = capacity;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     @Override
     public String toString() {
         return "CinemaHall{"
                 + "id=" + id
                 + ", capacity=" + capacity
-                + ", description='" + description + '\''
-                + '}';
+                + ", description='" + description + '\'' + '}';
     }
 }
